@@ -12,7 +12,7 @@ All you have to do is to launch your local server (Content is provided by a data
 * [CSS](https://maven.apache.org/) - Stylesheet language
 * [Slim](http://www.slimframework.com/) - PHP micro framework
 * [Twig](https://twig.symfony.com/) - PHP template engine
-* [Bootstrap](https://twig.symfony.com/) - PHP template engine
+* [Bootstrap](https://twig.symfony.com/) - CSS Framework
 
 ## Versioning
 
