@@ -1,0 +1,56 @@
+{% include 'partials/header.twig' %}
+
+    <!-- HERO -->
+    <div id="home">
+        <div class="landing-text text-light">
+            <h1>EMRE PALANDOKEN</h1>
+            <h3>HETIC Student</h3>
+            <a target="_blank" rel="noopener noreferrer" href="../web/images/cv.png" class="btn btn-light btn-lg">My CV</a>
+        </div>
+    </div>
+
+    <!-- ABOUT ME -->
+    <div class="pt-5 pb-5">
+        <div class="container about-me" name="about-me">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="../web/images/portrait.jpg" alt="Emre Palandoken portrait">
+                </div>
+                <div class="col-sm-6">
+                    <h2>About me</h2>
+                    <p class="lead">
+                        Currently a second-year student at the best french web school HETIC, I'm following web development, design, marketing and entrepreneurship lessons. <br /><br />
+                        Beside my student life, I'm working as a production operator at Sanofi and I have started my cybersecurity company W3Protection. I'm also a business developper at Softentreprise-IDF, a company specialized on POS (Point of Sale) Systems, payment and web services for shops.<br /><br />
+                        I'm always open to any cooperation whether it is for investment, web and technology focused works, internships or any other purpose.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PARALLAX -->
+    <div id="fixed"></div>
+    
+    <!-- WORKS -->
+    <div class="pt-5 pb-5">
+        <div class="container works">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <a target="_blank" rel="noopener noreferrer" href="{{lastGit}}"><h4>{{ lastTitle }}</h4></a>
+                    <p>{{ lastDescription }}</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <a target="_blank" rel="noopener noreferrer" href="{{lastGit}}"><img class="img-responsive" src="{{lastImage}}" alt="{{lastImageAlt}}"></a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <a target="_blank" rel="noopener noreferrer" href="{{beforeLastGit}}"><h4>{{ beforeLastTitle }}</h4></a>
+                    <p>{{ beforeLastDescription }}</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <a target="_blank" rel="noopener noreferrer" href="{{beforeLastGit}}"><img class="img-responsive" src="{{beforeLastImage}}" alt="{{beforeLastImageAlt}}"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% include 'partials/footer.twig' %}

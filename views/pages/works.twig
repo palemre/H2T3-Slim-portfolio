@@ -1,0 +1,17 @@
+{% include 'partials/header.twig' %}
+
+<div class="card-deck cards">
+    {% for _work in works %}
+        <div class="card">
+            <a target="_blank" rel="noopener noreferrer" href="{{_work.github}}">
+                <img class="card-img-top" src="{{_work.image}}" alt="{{_work.image_alt}}">
+            </a>
+            <div class="card-body">
+                <a target="_blank" rel="noopener noreferrer" href="{{_work.github}}"><h5 class="card-title">{{_work.title}}</h5></a>
+                <p class="card-text">{{_work.description}}</p>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+{% include 'partials/footer.twig' %}
