@@ -1,10 +1,10 @@
 # Slim portfolio
 
-Portfolio created with Slim framework and Twig PHP template engine 
+Portfolio created with Slim framework and Twig PHP template engine.
 
 ### Prerequisites
 
-All you have to do is to launch your local server
+All you have to do is to launch your local server (Content is provided by a database storing my contents)
 
 ## Built With
 
@@ -12,24 +12,15 @@ All you have to do is to launch your local server
 * [CSS](https://maven.apache.org/) - Stylesheet language
 * [Slim](http://www.slimframework.com/) - PHP micro framework
 * [Twig](https://twig.symfony.com/) - PHP template engine
+* [Bootstrap](https://twig.symfony.com/) - PHP template engine
 
 ## Versioning
 
 I use [GitHub](https://github.com) for versioning. Repository available here [my repository](https://github.com/palemre/H2T3-Slim-portfolio). 
 
-## Authors
+## About
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Home page with a landing section with my CV, about me section, my last two works and links to my social accounts
+* Works page with my works
+* Parallax effect
 
